@@ -1,0 +1,87 @@
+ body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+#container-01 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 50vh;
+    margin: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    position: relative; /* Add this */
+}
+
+#container-01 canvas {
+    display: block;
+    margin: auto;
+} 
+      #uploadPdbContainer {
+            margin-bottom: 20px;
+        }
+        #uploadPdbContainer label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        #uploadPdbContainer input[type="file"] {
+            padding: 7px;
+            border-radius: 3px;
+            border: 1px solid #ddd;
+            width: calc(100% - 115px);
+            display: inline-block;
+        }
+        #uploadPdbContainer button {
+            padding: 7px 15px;
+            border: none;
+            border-radius: 3px;
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+            display: inline-block;
+            vertical-align: top;
+        }
+        #annotationContainer input[type="text"], 
+        #annotationContainer input[type="color"], 
+        #annotationContainer button {
+            padding: 7px;
+            border-radius: 3px;
+            border: 1px solid #ddd;
+            margin-bottom: 10px;
+        }
+        #annotationContainer button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        #annotationContainer button:hover {
+            background-color: #45a049;
+        }
+        #sequenceDisplay {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 14px;
+            color: black;
+            overflow-x: auto;
+        }
+        .highlighted {
+            color: inherit;
+        }

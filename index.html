@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protein Sequence Annotation</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div ><div id="container-01"></div></div>
+        
+    <div class="container">
+    
+
+        <div id="uploadPdbContainer">
+            <label for="pdbFile">Upload PDB File:</label>
+            <input type="file" id="pdbFile" accept=".pdb">
+            <button id="uploadButton">Upload</button>
+        </div>
+       
+        <div id="annotationContainer">
+            <label for="start">Start Index:</label>
+            <input type="text" id="start" placeholder="Start index">
+            <label for="end">End Index:</label>
+            <input type="text" id="end" placeholder="End index">
+            <input type="color" id="colorPicker">
+            <button id="annotate">Annotate</button>
+        </div>
+        <div id="sequenceDisplay"></div>
+    </div>
+
+    <script src="https://3Dmol.org/build/3Dmol-min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
