@@ -1,6 +1,8 @@
 # Protein Sequence Annotation
 
 This project provides a web-based tool for annotating protein sequences and visualizing them using 3D molecular structures.
+- Blog (#https://corvus-ikshana.hashnode.dev)
+- Live Link (# https://3d-mol.netlify.app)
 
 ## Table of Contents
 
