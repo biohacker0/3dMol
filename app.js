@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", function () {
       viewer.render();
 
       let sequence = extractSequence(pdbData);
-      sequenceDisplay.innerText = "Protein Sequence: " + sequence;
+      sequenceDisplay.innerText = sequence;
     }
 
     annotateButton.addEventListener("click", function () {

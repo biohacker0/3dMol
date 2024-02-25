@@ -17,8 +17,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 70%;
-    height: 50vh;
+    width: 55%;
+    height: 60vh;
     margin: auto;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -70,9 +70,16 @@
         #annotationContainer button:hover {
             background-color: #45a049;
         }
+        #annotationContainer{
+         display: flex;
+         justify-content:center;
+         justify-content: space-around;
+         align-items: baseline;
+         flex-wrap: wrap;
+        }
         #sequenceDisplay {
             max-width: 100%;
-            height: auto;
+            height: 50vh;
             margin-top: 20px;
             padding: 10px;
             border: 1px solid #ddd;
