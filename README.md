@@ -43,3 +43,14 @@ To set up the project locally, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/biohacker0/protein-sequence-annotation.git
+
+- Images :
+- ![image](https://github.com/biohacker0/3dMol/assets/50107470/b179510d-9dad-47bb-90f5-903dbd80cbb7)
+- ![image](https://github.com/biohacker0/3dMol/assets/50107470/10d24e67-393a-4cf3-a207-40ebbf702084)
+- ![image](https://github.com/biohacker0/3dMol/assets/50107470/6a543311-dc45-4716-84ba-71724fbdce7e)
+- ![image](https://github.com/biohacker0/3dMol/assets/50107470/83f663c1-a685-435a-a207-d98f924030fc)
+- ![image](https://github.com/biohacker0/3dMol/assets/50107470/a0222a0e-5100-44d9-ad43-35da38151604)
+
+
+
+
